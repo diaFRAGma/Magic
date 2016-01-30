@@ -1,0 +1,17 @@
+World of Warcraft 1.12.1 Addon für Magier zur Zielerfassung
+
+Im Spiel muss ein Makro angelegt werden mit folgendem Inhalt:
+/run Magic("Zauber")
+oder einfach
+/magic Zauber
+
+Wobei Zauber z.B. Frostblitz oder Feuerball sein kann.
+
+Wenn man die Aktion ausführt wird ein geprüft ob das aktuelle Target noch lebt und einen Namen hat. Wenn das nicht der Fall ist wird versucht über TargetNearestEnemy() solange ein neues Target zu suchen bis dies den Vorgaben entspricht. Daraufhin wid dann der mitgegebene Zauber auf das Ziel gecastet. Falls kein passendes Ziel gefunden wurde wird nichts gemacht.
+
+Nützliche Links:
+World of Warcraft 1.12.1 API
+http://vanilla-wow.wikia.com/wiki/World_of_Warcraft_API
+http://www.wowwiki.com/index.php?title=World_of_Warcraft_API&oldid=281620
+Programming in Lua
+http://www.lua.org/pil/contents.html

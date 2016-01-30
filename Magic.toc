@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: Magic 1.0
+## Version: 1.0
+## Notes-deDE: Sucht sich ein Ziel und zaubert den gewünschten Spell.
+## Author: Ambro
+Magic.lua
